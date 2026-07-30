@@ -1,8 +1,27 @@
 aid: kampi
 name: Kampi
-description: Kampi is a company surfaced as a portfolio company of obvious-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kampi is an aquaculture technology company headquartered in Samborondón, Ecuador, building
+  an AI-powered mobile app and platform for real-time shrimp farm management. Created by the team behind
+  XpertSea (KAMPI AQUA SOLUTIONS S.A. / XpertSea Solution Inc.), Kampi converts daily farm records into
+  personalized guidance using machine learning, an approach it calls dynamic precision farming. The
+  platform combines three integrated tools — Pond Vision (intelligent pond monitoring), FarmAI (predictive
+  biomass analytics) and Farmbook (digital team integration) — to deliver biomass monitoring, biological
+  parameter tracking, real-time alerts, harvest planning and FCR optimization from a smartphone, online or
+  offline. Kampi is a marketing-and-mobile-app company with no public developer API, OpenAPI, or developer
+  portal at this time; this profile captures its published web presence and a verbatim llms.txt it serves.
 url: https://raw.githubusercontent.com/api-evangelist/kampi/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://bekampi.com/wp-content/uploads/2025/10/Logo-Kampi-Color-scaled.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Aquaculture
+- Shrimp Farming
+- Artificial Intelligence
+- Machine Learning
+- Mobile App
+- Agriculture Technology
+- Ecuador
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,28 @@ maintainers:
 common:
 - type: Website
   url: https://bekampi.com
+- type: About
+  url: https://bekampi.com/en/about-us/
+- type: Blog
+  url: https://bekampi.com/en/news/
+- type: Support
+  url: https://bekampi.com/en/contact/
+- type: TermsOfService
+  url: https://bekampi.com/en/terms-of-service/
+- type: PrivacyPolicy
+  url: https://bekampi.com/en/privacy-policy/
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.xpertsea.insights
+- type: AppStore
+  url: https://apps.apple.com/sk/app/kampi/id1644229790
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bekampi/
+- type: LLMsTxt
+  url: llms/kampi-llms.txt
+- type: DomainSecurity
+  url: security/kampi-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
