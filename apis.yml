@@ -10,6 +10,17 @@ description: Kampi is an aquaculture technology company headquartered in Samboro
   offline. Kampi is a marketing-and-mobile-app company with no public developer API, OpenAPI, or developer
   portal at this time; this profile captures its published web presence and a verbatim llms.txt it serves.
 url: https://raw.githubusercontent.com/api-evangelist/kampi/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
