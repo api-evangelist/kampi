@@ -47,9 +47,9 @@ tags:
 - Aquaculture
 - Shrimp Farming
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Mobile App
-- Agriculture Technology
+- AgTech
 - Ecuador
 tags_raw:
 - Company
@@ -60,6 +60,7 @@ tags_raw:
 - Mobile App
 - Agriculture Technology
 - Ecuador
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
